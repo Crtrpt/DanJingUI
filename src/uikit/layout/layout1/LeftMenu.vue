@@ -71,7 +71,62 @@ export default {
             name:"skin",
             children:[],
           },
-         
+          {
+            id:8,
+            is_active:false,
+            icon:"fas fa-align-justify",
+            name:"skin",
+            children:[],
+          },
+          {
+            id:8,
+            is_active:false,
+            icon:"fas fa-align-justify",
+            name:"skin",
+            children:[],
+          },
+          {
+            id:8,
+            is_active:false,
+            icon:"fas fa-align-justify",
+            name:"skin",
+            children:[],
+          },
+          {
+            id:8,
+            is_active:false,
+            icon:"fas fa-align-justify",
+            name:"skin",
+            children:[],
+          },
+          {
+            id:8,
+            is_active:false,
+            icon:"fas fa-align-justify",
+            name:"skin",
+            children:[],
+          },
+          {
+            id:8,
+            is_active:false,
+            icon:"fas fa-align-justify",
+            name:"skin",
+            children:[],
+          },
+          {
+            id:8,
+            is_active:false,
+            icon:"fas fa-align-justify",
+            name:"skin",
+            children:[],
+          },
+          {
+            id:8,
+            is_active:false,
+            icon:"fas fa-align-justify",
+            name:"skin",
+            children:[],
+          },
         ]
       }
     }
@@ -79,7 +134,12 @@ export default {
 </script>
 
 <style scoped>
+  .left__menu{
+    flex-grow: 1;
+    overflow-y: auto;
+  }
   .left__menu li {
+   
     font-size: 16px;
   }
   

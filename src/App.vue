@@ -19,5 +19,6 @@ export default {
 html,body,#app {
   width: 100vw;
   height: 100vh;
+    font-family: "微软雅黑";
 }
 </style>

@@ -1,11 +1,11 @@
 <template>
-  <div id="Logo">
+  <a id="Logo" href="#/">
     <img src="/favicon.png" style="width:48px;height:48px">
     <div class="logo">
       <div>DanJingUI</div>
     </div>
      <Badge text="0.0.1" color="" />
-  </div>
+  </a>
 </template>
 
 <script>

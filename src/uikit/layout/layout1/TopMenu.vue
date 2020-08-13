@@ -27,28 +27,28 @@ export default {
       return {
         menus:[
           {
-            href:"#/laravel",
+            href:"#/integrated/laravel",
             id:2,
             icon:"/material/laravel_32x32.png",
             name:"Laravel",
             children:[],
           },
           {
-            href:"#/springboot",
+            href:"#/integrated/springboot",
             id:3,
             icon:"/material/springboot_32x32.png",
             name:"Springboot",
             children:[],
           },
           {
-            href:"#/thinkphp",
+            href:"#/integrated/thinkphp",
             id:4,
             icon:"/material/thinkphp_32x32.gif",
             name:"ThinkPHP",
             children:[],
           },
           {
-            href:"#/beego",
+            href:"#/integrated/beego",
             id:1,
             icon:"/material/beego_20x20.png",
             name:"Geego",

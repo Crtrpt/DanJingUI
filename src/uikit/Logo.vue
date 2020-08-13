@@ -1,9 +1,10 @@
 <template>
   <div id="Logo">
+    <img src="/favicon.png" style="width:48px;height:48px">
     <div class="logo">
       <div>DanJingUI</div>
-      <Badge text="0.0.1" color="" />
     </div>
+     <Badge text="0.0.1" color="" />
   </div>
 </template>
 
@@ -18,14 +19,21 @@ export default {
 </script>
 
 <style scope>
-
-.logo {
+#Logo {
   position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  margin: 6px 0px;;
+}
+.logo {
   color: var(--primary);
-  height: 60px;
+  height: 48px;
   text-align: center;
   font-size: 18px;
-  line-height: 60px;
+  line-height: 48px;
 }
 
 </style>

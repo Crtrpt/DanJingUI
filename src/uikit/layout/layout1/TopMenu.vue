@@ -26,6 +26,12 @@ export default {
     data(){
       return {
         menus:[
+           {
+            id:1,
+            icon:"",
+            name:"Vue",
+            children:[],
+          },
           {
             id:1,
             icon:"",

@@ -9,7 +9,7 @@
            <TopMenu />
         </div>
         <div class="content">
-            bodyContent
+            100+前端组件 40+ 布局 100+页面 10+皮肤
         </div>
     </div>
   </div>

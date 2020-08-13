@@ -26,26 +26,26 @@ export default {
     data(){
       return {
         menus:[
-           {
+          {
             id:1,
             icon:"",
             name:"Vue",
             children:[],
           },
           {
-            id:1,
+            id:2,
             icon:"",
             name:"Laravel",
             children:[],
           },
           {
-            id:2,
+            id:3,
             icon:"",
             name:"Springboot",
             children:[],
           },
           {
-            id:3,
+            id:4,
             icon:"",
             name:"ThinkPHP",
             children:[],

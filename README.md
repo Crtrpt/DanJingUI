@@ -1,4 +1,5 @@
-# danjingui
+# DanJingUI
+<img src="public/favicon.png" width=64px height=64px>
 
 ## Project setup
 ```

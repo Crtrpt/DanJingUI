@@ -49,7 +49,7 @@ export default {
           },
           {
             href:"#/beego",
-            id:2,
+            id:1,
             icon:"/material/beego_20x20.png",
             name:"Geego",
             children:[],

@@ -9,125 +9,15 @@
 </template>
 
 <script>
+import menus from "../../../config/menu.js";
+
+console.log(menus);
+
 export default {
     name:"LeftMenu",
     data(){
       return {
-        menus:[
-          {
-            id:1,
-            is_active:true,
-            icon:"fas fa-align-justify",
-            name:"home",
-            children:[],
-          },
-        
-          {
-            id:2,
-            is_active:false,
-            icon:"fas fa-align-justify",
-            name:"base",
-            children:[],
-          },
-          {
-            id:3,
-            icon:"fas fa-align-justify",
-            name:"layout",
-            badge:20000,
-            children:[],
-          },
-          {
-            id:4,
-            icon:"fas fa-align-justify",
-            name:"form",
-            badge:"pro",
-            children:[],
-          },
-          {
-            id:5,
-            icon:"fas fa-align-justify",
-            name:"table",
-             badge:"new",
-            children:[],
-          },
-          {
-            id:6,
-            icon:"fas fa-align-justify",
-            name:"component",
-            badge:99,
-            children:[],
-          },
-          {
-            id:7,
-            icon:"fas fa-align-justify",
-            name:"pages",
-            badge:6,
-            children:[],
-          },
-          {
-            id:8,
-            is_active:false,
-            icon:"fas fa-align-justify",
-            name:"skin",
-            children:[],
-          },
-          {
-            id:8,
-            is_active:false,
-            icon:"fas fa-align-justify",
-            name:"skin",
-            children:[],
-          },
-          {
-            id:8,
-            is_active:false,
-            icon:"fas fa-align-justify",
-            name:"skin",
-            children:[],
-          },
-          {
-            id:8,
-            is_active:false,
-            icon:"fas fa-align-justify",
-            name:"skin",
-            children:[],
-          },
-          {
-            id:8,
-            is_active:false,
-            icon:"fas fa-align-justify",
-            name:"skin",
-            children:[],
-          },
-          {
-            id:8,
-            is_active:false,
-            icon:"fas fa-align-justify",
-            name:"skin",
-            children:[],
-          },
-          {
-            id:8,
-            is_active:false,
-            icon:"fas fa-align-justify",
-            name:"skin",
-            children:[],
-          },
-          {
-            id:8,
-            is_active:false,
-            icon:"fas fa-align-justify",
-            name:"skin",
-            children:[],
-          },
-          {
-            id:8,
-            is_active:false,
-            icon:"fas fa-align-justify",
-            name:"skin",
-            children:[],
-          },
-        ]
+        menus:menus||[]
       }
     }
 }

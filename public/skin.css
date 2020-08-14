@@ -9,4 +9,31 @@
   --dark :#343a40;
 }
 
+.primary {
+  background-color:var(--primary);
+  color: var(--light);
+}
+
+.secondry {
+  background-color:var(--primary)
+}
+
+.success {
+  background-color:var(--success);
+  color: var(--light);
+}
+
+.warning {
+  background-color:var(--warning);
+  color: var(--light);
+}
+
+.danger {
+  background-color:var(--danger);
+  color: var(--light);
+}
+
+
+
+
  

@@ -1,14 +1,15 @@
 <template>
-    <div class="form__group">
-        <slot></slot>
-    </div>
+  <div>
+    button ButtonGroup
+  </div>
 </template>
 
 <script>
 export default {
-    name:"FormGroup"
+  name:"ButtonGroup"
 }
 </script>
+
 <style scoped>
 
 </style>

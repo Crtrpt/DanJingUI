@@ -84,6 +84,10 @@ export default {
   .topNav{
     display: flex;
     flex-direction: row;
+    border-bottom: 1px solid rgba(133, 133, 133, 0.534);
+  }
+  .topNav:hover{
+   box-shadow: 0 0px 8px 0 rgba(0,0,0,0.06), 0 1px 0px 0 rgba(0,0,0,0.02);
   }
 
   .left {

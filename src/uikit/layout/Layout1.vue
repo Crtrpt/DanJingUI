@@ -5,9 +5,7 @@
         <LeftMenu />
     </div>
     <div class="body" >
-        <div class="top">
-           <TopMenu />
-        </div>
+        <TopMenu />
         <router-view>
         </router-view>
     </div>
@@ -48,7 +46,4 @@ export default {
 }
 
 
-#layout1 .top {
-  border-bottom: 1px solid rgba(133, 133, 133, 0.534);
-}
 </style>

@@ -1,6 +1,6 @@
 <template>
   <a id="Logo" href="#/">
-    <img src="/favicon.png" style="width:48px;height:48px">
+    <img src="/favicon.png" style="width:36px;height:36px">
     <div class="logo">
       <div>DanJingUI</div>
     </div>
@@ -20,13 +20,14 @@ export default {
 
 <style scope>
 #Logo {
+  align-items: center;
   position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
   justify-items: center;
   align-content: center;
-  margin: 6px 0px;;
+  margin: 2px 0px;;
 }
 .logo {
   color: var(--primary);

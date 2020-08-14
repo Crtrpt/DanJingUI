@@ -76,9 +76,9 @@ export default {
 
 <style scoped>
   .left__menu li {
-    margin-left: 10px;
+    margin-left: 5px;
     font-size: 16px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
 
   .topNav{
@@ -91,10 +91,18 @@ export default {
     flex-direction: row;
   }
   .handler {
+    cursor:pointer;
+    background-color:white;
+    border-radius: 50%;
     text-align: center;
-    width: 60px;
-    line-height: 60px;
+    width:30px;
+    line-height: 30px;
+    margin: 10px;
     font-size: 20px;
+  }
+  .handler:hover{
+     background-color:var(--secondry);
+     color:var(--light)
   }
   .left .item, .right .item {
     display: flex;
@@ -102,7 +110,7 @@ export default {
     justify-content: center;
     justify-items: center;
     align-content: center;
-    line-height: 60px;
+    line-height: 50px;
     align-items: center;
 
     font-size: 14px;

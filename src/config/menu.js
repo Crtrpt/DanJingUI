@@ -6,7 +6,6 @@ const  menus=[
     name:"home",
     children:[],
   },
-
   {
     id:2,
     is_active:false,

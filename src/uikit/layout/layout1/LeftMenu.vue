@@ -35,8 +35,8 @@ export default {
   
   .item {
     position: relative;
-    color:var(--primary);
-    line-height: 40px;
+    color:var(--secondry);
+    line-height: 50px;
     display: flex;
     border-left: 2px solid #00000000;
     cursor: pointer;
@@ -64,14 +64,14 @@ export default {
   }
 
   .item:hover{
-    color:var(--light);
-    background-color:var(--secondry);
+    color:var(--secondry);
+    background-color: var(--light);
     border-left: 2px solid var(--primary);
   }
 
   .active {
-    color:var(--light);
-    background-color: var(--secondry);
+    color:var(--secondry) ;
+    background-color: var(--light);
     border-left: 2px solid var(--primary);
   }
 

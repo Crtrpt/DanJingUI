@@ -1,12 +1,12 @@
 <template>
-    <div class="form__group">
-        <slot></slot>
+    <div class="form__input">
+        
     </div>
 </template>
 
 <script>
 export default {
-    name:"FormGroup"
+    name:"DJInput"
 }
 </script>
 <style scoped>

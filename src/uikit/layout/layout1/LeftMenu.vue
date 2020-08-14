@@ -1,11 +1,11 @@
 <template>
-    <ul class="left__menu">
-        <li v-for="m in menus" :key="m.id" :class="'item '+(m.is_active?'active':'')">
+    <div class="left__menu">
+        <a v-for="m in menus" :key="m.id" :class="'item '+(m.is_active?'active':'')"  :href="m.href">
           <div class="icon"><i :class=m.icon ></i></div>
           <div class="name"> {{m.name}}</div>
           <div class="badge" v-if="m.badge">{{m.badge}}</div>
-        </li>
-    </ul>
+        </a>
+    </div>
 </template>
 
 <script>

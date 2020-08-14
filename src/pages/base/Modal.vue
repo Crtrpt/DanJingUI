@@ -1,14 +1,15 @@
 <template>
-    <div class="form__group">
-        <slot></slot>
-    </div>
+  <div>
+    Modal
+  </div>
 </template>
 
 <script>
 export default {
-    name:"FormGroup"
+  name:"Modal"
 }
 </script>
+
 <style scoped>
 
 </style>

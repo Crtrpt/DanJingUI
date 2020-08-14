@@ -35,7 +35,6 @@ export default {
   display: flex;
   flex-direction: column;
   border-right: 1px solid rgba(133, 133, 133, 0.534);
-  width:200px;
 }
 
 
